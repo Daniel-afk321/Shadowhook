@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Armadilha
+  - FxTemporaire
+  - Portal
+  - A
   layers:
   - Default
   - TransparentFX

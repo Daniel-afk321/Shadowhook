@@ -7,7 +7,7 @@ public class Node : MonoBehaviour
     private eye eyeScript;
     private Node node;
 
-    //public GameObject particle;
+    public GameObject particle;
 
     void Start()
     {
@@ -29,7 +29,7 @@ public class Node : MonoBehaviour
                     if (hit.transform == transform)
                     {
                         OnMouseDown();
-                        //Instantiate(particle, transform.position, transform.rotation);
+                        Instantiate(particle, transform.position, transform.rotation);
                     }
                 }
             }
