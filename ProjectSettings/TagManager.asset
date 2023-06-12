@@ -9,6 +9,7 @@ TagManager:
   - FxTemporaire
   - Portal
   - A
+  - som
   layers:
   - Default
   - TransparentFX

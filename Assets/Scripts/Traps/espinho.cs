@@ -7,7 +7,13 @@ public class espinho : MonoBehaviour
    
     Rigidbody2D rb;
 
+    public AudioClip Espinho;
+    private AudioSource audioSource;
 
+    private void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -17,13 +23,14 @@ public class espinho : MonoBehaviour
     {
         if (col.gameObject.name.Equals("Player"))
             rb.isKinematic = false;
-
+        audioSource.PlayOneShot(Espinho);
     }
 
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.name.Equals("Player"))
             Debug.Log("Got you");
+
         
     }
 

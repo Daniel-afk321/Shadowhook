@@ -15,6 +15,8 @@ public class eye : MonoBehaviour
     bool canDoubleJump;
     public float delayBeforeDoubleJump;
     private Rigidbody2D rb;
+    private AudioSource audioSource;
+    public AudioClip jumpSound;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -23,6 +25,7 @@ public class eye : MonoBehaviour
         LineRend.enabled = false;
         distJoint.enabled = false;
         selectedNode = null;
+        audioSource = GetComponent<AudioSource>();
     }
 
    
@@ -81,17 +84,20 @@ public class eye : MonoBehaviour
             isGrounded = false;
             rb.velocity = Vector2.up * JumpSpeed;
             Invoke("EnableDoubleJump", delayBeforeDoubleJump);
+            audioSource.PlayOneShot(jumpSound);
         }
         if (canDoubleJump)
         {
             rb.velocity = Vector2.up * JumpSpeed;
             canDoubleJump = false;
+            
         }
     }
 
     void EnableDoubleJump()
     {
         canDoubleJump = true;
+        //audioSource.PlayOneShot(jumpSound);
     }
 
 }
