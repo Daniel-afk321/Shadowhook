@@ -43,6 +43,8 @@ Prepare-se para uma aventura cheia de adrenalina e emoção em Shadowhook, onde 
 
 https://github.com/Daniel-afk321/Shadowhook
 
+YOUTUBE:https://www.youtube.com/watch?v=_zi4zDaBqTc
+
 APKPURE:
 
 ## Pré-requisitos ⚠️ 
