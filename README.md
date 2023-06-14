@@ -47,6 +47,8 @@ YOUTUBE:https://www.youtube.com/watch?v=_zi4zDaBqTc
 
 APKPURE:
 
+Drive:https://drive.google.com/file/d/1ifGNpSYDboSXJo9MW79m5_5eQ104siC3/view?usp=sharing
+
 ## Pré-requisitos ⚠️ 
 Versão do Android: 8.0 
 
