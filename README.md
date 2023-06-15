@@ -37,7 +37,7 @@ Prepare-se para uma aventura cheia de adrenalina e emoção em Shadowhook, onde 
 
 ✔️ clique no botão para pular.
 
-✔️ clique nos “drones” para utilizar o Grappling Hooks para passar os abismo e armadilhas.
+✔️ clique nos “drones” para utilizar o Grappling Hooks para passar os abismos e armadilhas.
 
 ## Distribuição
 
